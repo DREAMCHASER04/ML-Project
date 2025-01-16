@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib as plt
 
-dataset = pd.read_csv('Heart_disease_prediction.csv')
+dataset = pd.read_csv('../Logisitic Regression Model Practice/Heart_disease_prediction.csv')
 dataset = dataset.dropna()
 X = dataset.iloc[:, :-1].values
 Y = dataset.iloc[:, -1].values
